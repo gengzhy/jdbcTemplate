@@ -1,0 +1,8 @@
+JDBCTemplate 模板操作工具类
+自定义的SQL模板操作工具
+暂实现最简单的查询功能：
+    全查询、条件查询
+    
+    使用规则：
+    创建 Java类 extends GeneralOperatUtils类
+    List<Map<String,Object> list = getJdbcTemplate().queryForList(sql);
