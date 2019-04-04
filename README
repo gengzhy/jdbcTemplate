@@ -7,7 +7,7 @@ JDBCTemplate 模板操作工具类
     创建 Java类 extends GeneralOperatUtils类
     List<Map<String,Object> list = getJdbcTemplate().queryForList(sql);
     
-    <a href="jdbcTemplate1.0.0.1.jar">jar文件下载地址</a>
+    jar文件下载地址: downloads/jdbc
     
     
     
