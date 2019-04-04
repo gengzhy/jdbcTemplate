@@ -23,5 +23,12 @@ public interface BaseJdbcTemplate {
 	 * @throws Exception
 	 */
 	<T> List<T> queryForList(String sql,Object...args) throws Exception;
+	
+	/**插入或更新数据
+	 * @param sql
+	 * @param args
+	 * @return
+	 */
+	<T> int insert(String sql, Object...args);
 
 }
